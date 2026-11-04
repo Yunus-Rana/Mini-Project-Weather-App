@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e9e5db;
+    color: #2b2b24;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.weatherform {
+    display: flex;
+    gap: 8px;
+}
+
+.cityinput {
+    flex: 1;
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    color: #2b2b24;
+    background: #fbfaf7;
+    border: 1px solid #cfc9bc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.cityinput:focus {
+    border-color: #5b6048;
+}
+
+.weatherform button {
+    padding: 12px 18px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: #3c4233;
+    color: #fbfaf7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.weatherform button:hover {
+    background: #2b3024;
+}
+
+.card {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #fbfaf7;
+    border: 1px solid #dcd7cb;
+    border-radius: 6px;
+    padding: 32px 20px;
+    box-shadow: 0 4px 12px rgba(43, 43, 36, 0.05);
+    text-align: center;
+}
+
+.citydisplay {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #2b2b24;
+}
+
+.tempdisplay {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #3c4233;
+    margin: 8px 0;
+}
+
+.humiditydisplay {
+    font-size: 0.9rem;
+    color: #6a685e;
+}
+
+.descdisplay {
+    font-size: 1rem;
+    font-style: italic;
+    color: #8c8779;
+    margin-bottom: 12px;
+}
+
+.weatheremoji {
+    font-size: 3.2rem;
+}
+
+.errordisplay {
+    font-size: 0.9rem;
+    color: #8a3628;
+    background: #f5e4e0;
+    border: 1px solid #deb8b0;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
