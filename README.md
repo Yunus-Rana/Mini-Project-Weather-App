@@ -18,9 +18,6 @@ A lightweight browser-based weather app that looks up current conditions for a c
 
 This project uses plain HTML, CSS, and JavaScript. No build step or package installation is required.
 
-## API key note
-
-Because this is a client-side app, the API key in `script.js` is visible to anyone who can access the page. For a public deployment, restrict the key through your OpenWeatherMap account where possible, or route requests through a backend so the key is not exposed in browser code. Do not publish a personal or unrestricted API key.
 
 ## Built with
 
